@@ -479,4 +479,7 @@ end
 bindKey("Toggle Aimbot",   function() Config.AimbotEnabled = not Config.AimbotEnabled end)
 bindKey("Toggle Silent",   function() Config.SilentAim     = not Config.SilentAim end)
 bindKey("Toggle ESP",      function() Config.ESPEnabled    = not Config.ESPEnabled end)
-bindKey("Toggle Speed",    function() Config
+bindKey("Toggle Speed",    function() Config.SpeedHack = not Config.SpeedHack end)
+
+-- load the ui
+Rayfield:LoadConfiguration()
